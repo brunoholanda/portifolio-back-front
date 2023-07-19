@@ -1,0 +1,18 @@
+npm install express // framework backend
+npm install pg //postgress banco de dados
+npm install cors //seguranca navegadores
+
+npm install bcrypt //embaralhar senhas hash
+
+
+npm install mysql2 //pacote necessario par se comunicar com o sequelize
+npm install pg sequelize sequelize-cli // para criar as migracoes
+
+npx sequelize-cli model:generate --name User --attributes username:string,password:string
+
+npx sequelize-cli db:migrate // rodar as migrations feitas
+
+npm install jsonwebtoken
+
+npm install multer // para lidar com imagens
+
